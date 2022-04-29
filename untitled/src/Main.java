@@ -1,3 +1,5 @@
+//The template of this code is inspired by geeksforgeeks website:
+// https://www.geeksforgeeks.org/prims-mst-for-adjacency-list-representation-greedy-algo-6/
 import java.util.ArrayList;
 public class Main {
 
@@ -60,7 +62,7 @@ public class Main {
         e.addEdge(graph, 8, 12, 28);
         //Ringsted
         e.addEdge(graph, 9, 13, 31);
-        e.addEdge(graph, 9, 14, 14);
+        e.addEdge(graph, 9, 14, 15);
         e.addEdge(graph, 9, 12, 58);
         //Slagelse
         e.addEdge(graph, 10, 14, 14);
